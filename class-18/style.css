@@ -1,0 +1,17 @@
+body{
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h1{
+    padding-top: 2px;
+    padding-block-end: 4px;
+    margin-top: 0%;
+    margin-right:35%;
+    margin-left: 35%;
+    background-color: red;
+}
+img{
+    width: 10cm;
+}
