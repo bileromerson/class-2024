@@ -1,0 +1,15 @@
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+header{
+    background-color: blueviolet;
+    
+}
+footer{
+    background-color: black;
+
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
