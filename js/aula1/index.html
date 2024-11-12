@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function mensagem(){
+            alert("parabens, você ganhou R$1")
+        }
+    </script>
+
+    <div onclick="mensagem()" style="background: green; width: 100px;">
+            <h3>quadrado</h3>
+    </div>
+
+    <script>
+        function tecla(event){
+            var x = event.key;
+            document.getElementById("texto").innerHTML = "tecla precionada: " + x;
+        }
+    </script>
+
+    <input type="text" size="40" onkeydown="tecla(event)">
+
+    <p id="texto"></p>
+</body>
+</html>
