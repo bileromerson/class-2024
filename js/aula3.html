@@ -8,6 +8,11 @@
 <body id="hello" style="text-align: center; background-color: whitesmoke;">
     <button id="btn1" onclick="two()"style="width: 70px; height: 50px; background-color: white">white</button>
     <button id="btn2" onclick="one()" style="width: 70px; height: 50px; background-color: black; color: white;">black</button>
+    
+    <div>
+        <p>hello world</p>
+    </div>
+    
     <script lenguage="Js">
 
         function one(){
@@ -30,6 +35,9 @@
             document.getElementById("paragrafo").innerHTML = "hello"
         }
 
+        let paragrafo = document.querySelector('div' < 'p');
+        console.log(paragrafo);
     </script>
+
     <h1 id="paragrafo">hello</h1>
 </html>
