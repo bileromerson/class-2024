@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+#txt1, #txt2, #txt3, #txt4{
+    border: 3px, solid, black;
+    background-color: orange;
+}
+
+#resultado{
+    margin-left: 23%;
+    width: 190px;
+    background-color: orange;
+    border: 3px, solid, black;
+}
+
+#btn{
+    width: 75px;
+    height: 24px;
+    background-color: cornflowerblue
+}
