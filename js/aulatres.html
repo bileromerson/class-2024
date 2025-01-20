@@ -10,13 +10,22 @@
     <input type="number" name="txt1" id="txt1"> +
     <input type="number" name="txt2" id="txt2">
     <input type="button" value="soma" id="btn"onclick="soma()">
-    
-    <div>
-        <h3 id="resultado">resultado</h3>
-    </div>
+
     <input type="number" name="txt3" id="txt3"> -
     <input type="number" name="txt4" id="txt4">
     <input type="button" value="subtração" id="btn" onclick="subtracao()">
+    
+    <input type="number" name="txt5" id="txt5"> -
+    <input type="number" name="txt6" id="txt6">
+    <input type="button" value="mutiplicação" nclick="mutiplicacao()">
+
+    <input type="number" name="txt7" id="txt7"> -
+    <input type="number" name="txt8" id="txt8">
+    <input type="button" value="divisão" onclick="divisao()">
+
+    <div>
+        <h3 id="resultado">resultado</h3>
+    </div>
 
     <script lenguage ="JavaScript">
         function soma(){
@@ -38,6 +47,24 @@
             var s = n1 -n2;
             resultado.innerHTML = s
         }
+        function mutiplicacao(){
+            var tn1 = window.document.getElementById('txt5');
+            var tn2 = window.document.querySelector('input#txt6');
+            var resultado =  window.document.getElementById('resultado');
+            var n1 = Number(tn1.value);
+            var n2 = Number(tn2.value);
+            var s = n1 *n2;
+            resultado.innerHTML = s
+        }
+        function divisao(){
+            var tn1 = window.document.getElementById('txt3');
+            var tn2 = window.document.querySelector('input#txt4');
+            var resultado =  window.document.getElementById('resultado');
+            var n1 = Number(tn1.value);
+            var n2 = Number(tn2.value);
+            var s = n1 /n2;
+            resultado.innerHTML = s
+        }
     </script>
 </body>
-</html>
+</html> 
